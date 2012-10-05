@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+ <table name="CoreCommerceProductAttributeValues">
+    <field name="productID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="akID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="avID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+   <table name="CoreCommerceProductOptionAttributeKeys">
+    <field name="akID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="productID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="poakIsRequired" type="I" size="1" />
+  </table>
+  <table name="CoreCommerceProductOptionAttributeValues">
+    <field name="orderProductID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="akID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="avID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+   <table name="CoreCommerceShippingTypes">
+    <field name="shippingTypeID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED />
+    </field>
+    <field name="shippingTypeHandle" type="C" size="255">
+      <NOTNULL/>
+    </field>
+    <field name="shippingTypeName" type="C" size="255">
+      <NOTNULL/>
+    </field>
+    <field name="shippingTypeIsEnabled" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="pkgID" type="I" size="10">
+      <UNSIGNED />
+    </field>
+	<field name="shippingTypeHasCustomCountries" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+  </table>
+  <table name="CoreCommerceShippingTypeCustomCountries">
+    <field name="shippingTypeCustomCountryID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="shippingTypeID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="country" type="C" size="5">
+      <NOTNULL/>
+    </field>
+  </table>
+   <table name="CoreCommercePaymentMethods">
+    <field name="paymentMethodID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED />
+    </field>
+    <field name="paymentMethodHandle" type="C" size="255">
+      <NOTNULL/>
+    </field>
+    <field name="paymentMethodName" type="C" size="255">
+      <NOTNULL/>
+    </field>
+    <field name="paymentMethodIsEnabled" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="pkgID" type="I" size="10">
+      <UNSIGNED />
+    </field>
+  </table>
+  <table name="CoreCommerceDiscounts">
+    <field name="discountID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="discountHandle" type="C" size="128">
+      <NOTNULL/>
+    </field>
+    <field name="discountName" type="C" size="255"/>
+    <field name="discountIsEnabled" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="discountStart" type="T"/>
+    <field name="discountEnd" type="T"/>
+    <field name="discountCode" type="C" size="255"/>
+    <field name="discountTypeID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+   <table name="CoreCommerceDiscountTypes">
+    <field name="discountTypeID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED />
+    </field>
+    <field name="discountTypeHandle" type="C" size="255">
+      <NOTNULL/>
+    </field>
+    <field name="discountTypeName" type="C" size="255">
+      <NOTNULL/>
+    </field>
+    <field name="pkgID" type="I" size="10">
+      <UNSIGNED />
+    </field>
+
+  </table>
+  <table name="CoreCommerceProductImages">
+    <field name="productImageID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="productID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="fID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="displayOrder" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+  <table name="CoreCommerceProductSearchPurchaseGroups">
+    <field name="productID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="gID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+  <table name="CoreCommerceProducts">
+    <field name="productID" type="I" size="11">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="prName" type="C" size="255"/>
+    <field name="prDescription" type="X"/>
+    <field name="prDateAdded" type="T">
+      <NOTNULL/>
+      <DEFAULT value="0000-00-00 00:00:00"/>
+    </field>
+    <field name="prThumbnailImageFID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="prAltThumbnailImageFID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="prFullImageFID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="prRequiresTax" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>    
+    <field name="prRequiresShipping" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="prQuantity" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="prQuantityUnlimited" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="prStatus" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="prPrice" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="prWeight" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="prShippingModifier" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="prWeightUnits" type="C" size="3"/>
+    <field name="prDimL" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="prDimW" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="prDimH" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="prDimUnits" type="C" size="3"/>
+    <field name="cID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="prPhysicalGood" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="1"/>
+    </field>
+    <field name="prSpecialPrice" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+  </table>
+  <table name="CoreCommerceOrderStatusHistory">
+    <field name="orderStatusHistoryID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="orderID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="oshStatus" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="oshDateSet" type="T"/>
+    <field name="uID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+   <table name="CoreCommerceOrders">
+    <field name="orderID" type="I" size="11">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="oDateAdded" type="T">
+      <NOTNULL/>
+      <DEFAULT value="0000-00-00 00:00:00"/>
+    </field>
+    <field name="oEmail" type="C" size="255"/>
+    <field name="oShippingMethodID" type="C" size="64"/>
+    <field name="oStatus" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="uID" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="oPaymentMethodID" type="I" size="11">
+      <UNSIGNED/>
+      <DEFAULT value="0"/>
+    </field>
+  </table>
+  <table name="CoreCommerceOrderAttributeKeys">
+    <field name="akID" type="I" size="10">
+      <KEY/>
+      <UNSIGNED />
+    </field>
+    <field name="orakIsRequired" type="I1" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <!--
+    <field name="eoakIsSubTotalLineItem" type="I1" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+  	//-->
+  </table>  
+  <table name="CoreCommerceOrderProducts">
+    <field name="orderProductID" type="I" size="11">
+      <KEY/>
+      <UNSIGNED/>
+      <AUTOINCREMENT/>
+    </field>
+    <field name="orderID" type="I" size="11">
+      <UNSIGNED/>
+    </field>
+    <field name="productID" type="I" size="11">
+      <UNSIGNED/>
+    </field>
+    <field name="quantity" type="I" size="11">
+      <UNSIGNED/>
+    </field>
+    <field name="prPricePaid" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="prName" type="C" size="255"/>
+    <field name="dateAdded" type="T">
+      <NOTNULL/>
+      <DEFAULT value="0000-00-00 00:00:00"/>
+    </field>
+  </table>
+   <table name="CoreCommerceOrderAttributeValues">
+    <field name="orderID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="akID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="avID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+	<table name="CoreCommerceProductStats">
+    <field name="productID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="totalViews" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="totalPurchases" type="I" size="10">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+  </table>
+   <table name="CoreCommerceSalesTaxRates">
+    <field name="salesTaxRateID" type="I" size="10">
+      <KEY/>
+      <AUTOINCREMENT/>
+      <UNSIGNED/>
+    </field>
+    <field name="salesTaxRateCountry" type="C" size="255"/>
+    <field name="salesTaxRateStateProvince" type="C" size="255"/>
+    <field name="salesTaxRatePostalCode" type="C" size="32"/>
+    <field name="salesTaxRateAmount" type="N" size="14.4">
+      <DEFAULT value="0.0000"/>
+    </field>
+    <field name="salesTaxRateName" type="C" size="255">
+    </field>
+    <field name="salesTaxRateIsEnabled" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="salesTaxRateIncludedInProduct" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+    <field name="salesTaxRateIncludeShipping" type="I" size="1">
+      <NOTNULL/>
+      <DEFAULT value="0"/>
+    </field>
+  </table>
+</schema>

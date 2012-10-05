@@ -1,0 +1,15 @@
+.product-list-core-commerce-product-advanced-search {margin-bottom: 12px}
+.product-list-sort-header .sort-arrow.ccm-results-list-active-sort-desc {
+background:url(images/arrow_down_black.png) no-repeat scroll right 5px;
+text-decoration: none;
+line-height: 20px;
+padding: 0 3px;
+}
+.product-list-sort-header .sort-arrow.ccm-results-list-active-sort-asc {
+background:url(images/arrow_up_black.png) no-repeat scroll right 4px;
+text-decoration: none;
+line-height: 20px;
+padding: 0 3px;
+}
+
+div.ccm-core-commerce-summary div.ccm-paging-top {padding: 0px 0px 0px 0px}

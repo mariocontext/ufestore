@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+<table name="atCoreCommerceOrderAdjustment">
+    <field name="avID" type="I" size="10">
+      <KEY/>
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="label" type="C" size="255"/>
+    <field name="value" type="N" size="14.4"/>
+    <field name="type" type="C" size="1"/>
+  </table>
+</schema>

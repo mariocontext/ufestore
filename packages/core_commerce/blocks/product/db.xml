@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btCoreCommerceProduct">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="productID" type="I">
+			<unsigned />
+		</field>
+		<field name="addToCartText" type="C" size="255"></field>
+		<field name="displayLinkToFullPage" type="I1">
+			<unsigned />
+			<notnull />
+			<default value="0" />
+		</field>
+		<field name="displayAddToCart" type="I1">
+			<unsigned />
+			<notnull />
+			<default value="0" />
+		</field>
+		<field name="displayQuantity" type="I1">
+			<unsigned />
+			<notnull />
+			<default value="0" />
+		</field>
+		<field name="displayName" type="C" size="8">
+			<default value="P" />
+		</field>
+		<field name="displayDescription" type="C" size="8">
+		</field>
+		<field name="displayPrice" type="C" size="8">
+			<default value="P" />
+		</field> 
+		<field name="displayDiscount" type="C" size="8">
+			<default value="P" />
+		</field>
+		<field name="displayDimensions" type="C" size="8">
+		</field>
+		<field name="displayQuantityInStock" type="C" size="8">
+		</field>
+		<field name="inheritProductIDFromCurrentPage" type="I1">
+			<unsigned />
+			<notnull />
+			<default value="0" />
+		</field>
+		<field name="displayImage" type="I1">
+			<unsigned />
+			<notnull />
+			<default value="0" />
+		</field>
+		<field name="primaryImage" type="C" size="100">
+		</field>
+		<field name="displayHoverImage" type="I1">
+			<unsigned />
+			<notnull />
+			<default value="0" />
+		</field>
+		<field name="imageMaxWidth" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="imageMaxHeight" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="imagePosition" type="C" size="8">
+			<default value="L" />
+		</field>
+		<field name="primaryHoverImage" type="C" size="100">
+		</field>		
+		<field name="useOverlays" type="C" size="8">
+		</field>
+		<field name="overlayCalloutImage" type="C" size="100">
+		</field>
+		<field name="overlayCalloutImageMaxWidth" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="overlayCalloutImageMaxHeight" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="overlayLightboxImage" type="C" size="100">
+		</field>
+		<field name="overlayLightboxImageMaxWidth" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="overlayLightboxImageMaxHeight" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+	</table>
+	<table name="btCoreCommerceDisplayProductAttributes">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="akID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="display" type="C" size="8">
+		</field>
+	</table>
+</schema>
