@@ -46,6 +46,7 @@
   padding: 0px;
   position: relative;
   border: none;
+  z-index: 3;
 }
   
   #header {
