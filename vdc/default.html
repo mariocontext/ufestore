@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <title>UFE Shows</title>
+  <head>
+    {% css_default %}
+  </head>
+<body>
+<div id="wrap">
+
+<div id="header">
+  <h2>UFE Shows</h2>
+</div>
+
+
+<div id="navigation">
+{% if page.videos_url %}
+  <a href="{{ page.videos_url }}">Videos</a> 
+{% endif %}
+{% if page.logged_in? %}
+  {% if page.tickets_url %}
+    <a href="{{ page.tickets_url }}">My Videos</a>
+  {% endif %}
+  {% if page.courses_url %}
+    <a href="{{ page.courses_url }}">Courses</a>
+  {% endif %}
+  {% if page.course_enrollments_url %}
+    <a href="{{ page.course_enrollments_url }}">My Courses</a>
+  {% endif %}
+  <a href="{{ page.logout_url }}">Log Out</a>
+{% else %}
+  <a href="{{ page.login_url }}">Log In</a>
+  {% if page.registration_enabled? %}
+    <a href="{{ page.signup_url }}">Sign up</a>
+  {% endif %}
+{% endif %}
+</div>
+
+
+<div id="wrap_content">
+  {% flash_messages %}
+
+  <div id="main_content">
+    {% render %}
+  </div>
+</div>
+
+</div>
+</body>
+</html>
