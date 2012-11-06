@@ -1,0 +1,254 @@
+<style type="text/css">
+/* original version as of 11.06.12 */
+#wrap {
+  background: #EEEEEE;
+  width: 960px;
+  margin: 0px auto;
+  padding: 0px;
+  position: relative;
+  border: 10px solid #010101;
+}
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+  }
+  
+  body {
+    color: #3D3D3D;
+    font-size: 12px;
+    font-family: Verdana, Arial, sans-serif;
+  }
+
+  body {
+    background: #010101 url(http://images.verticalstreaming.com/clients/ufe/ufe_background_01.jpg) no-repeat top center;
+    background-attachment: fixed;
+    color: #000000;
+    font-size: 12px;
+    font-family: Arial, Tahoma, Verdana;
+    margin: 0px auto 0px;
+    padding: 0px;
+  }
+  
+  #header {
+    height: 285px;
+    background: url(http://images.verticalstreaming.com/clients/ufe/ufe_header_01.jpg) top center no-repeat;
+    width: 960px;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  #header h2 {
+    display: none;
+  }
+  
+  #navigation {
+    background: #555555 url(http://images.verticalstreaming.com/clients/ufe/navbar.png) top left repeat-x;
+    width: 960px;
+    height: 35px;
+    font-size: 12px;
+    font-family: Arial, Tahoma, Verdana;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+  }
+  
+  #navigation a {
+    color: #fff;
+    margin: 0px;
+    padding: 9px 15px 8px 15px;
+    text-decoration: none;
+    height: 17px;
+    display: block;
+    float: left;
+  }
+  
+  #navigation a:hover, #navigation a:active {
+    background: #555555 url(http://images.verticalstreaming.com/clients/ufe/navhov.png);
+    color: #fff;
+    margin: 0px;
+    padding: 9px 15px 8px 15px;
+    text-decoration: none;
+  }
+  
+  #wrap_content {
+    padding: 10px;
+  }
+  #main_content {
+      min-height: 400px;
+  }
+
+  
+  #flash_messages {
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .clear {
+    display: block;
+    clear: both;
+  }
+
+  #login_screen h2 {
+    text-align: center;
+  }
+  #login_form {
+      margin: 14px auto 0px auto;
+      width: 400px;
+  }
+  #login_form_div {
+    margin: 20px auto 0px auto;
+    width: 400px;
+  }
+  #login_form input[type=text], #login_form input[type=password] {
+    width: 250px;
+    padding: 3px;
+  }
+  #login_form input[type=submit] {
+    margin-top: 20px;
+  }
+  #login_form .email_field, #login_form .password_field {
+   float: left;
+   width: 80px;
+   font-size: 14px;
+   padding-top: 3px;
+  }
+  #forgot_password_scren {
+    margin: 20px auto 0px auto;
+    width: 400px;
+  }
+  #forgot_password_screen h2 {
+    text-align: center;
+  }
+  #forgot_password_screen {
+    margin: 0px auto 0px auto;
+    width: 300px;
+  }
+  #forgot_password_screen form {
+    margin-top: 14px;
+  }
+  #forgot_password_screen input[type=submit] {
+    margin-top: 10px;
+  }
+  #forgot_password_screen input[type=text] {
+    width: 300px;
+    padding: 2px;
+  }
+  .videos_content {
+    margin: 10px;
+  }
+  .videos_content #videos .video_item {
+      width: 200px;
+      float: left;
+      padding: 6px;
+      margin: 5px;
+      min-height: 220px;
+  }
+  .videos_content #videos .video_item .title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .videos_content #videos .video_item .desc {
+    font-size: 12px;
+  }
+  
+  #watch_video .video_info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #watch_video .video_info .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  #watch_video .video_info .description {
+    font-size: 12px;
+  }
+  
+  
+  
+.widget {
+    background: #FFFFFF url(http://images.verticalstreaming.com/clients/ufe/rightsidebartop.gif) top no-repeat;
+	width: 120px;
+	margin: 0px 0px 10px 0px;
+	padding: 9px;
+	border: 1px solid #DDDDDD;
+	display: block;
+}
+
+ul.nav {
+	list-style: none; 
+	border: 1px solid #666;
+	margin-bottom: 15px; 
+}
+
+ul.nav li {
+	border-bottom: 1px solid #666; font-weight:bold
+}
+
+ul.nav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	/*width: 120px; */
+	text-decoration: none;
+	background: #CCC; color:#000
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background: #900;
+	color: #FFF;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+
+a, a:visited {
+	color: #A91B33;
+	text-decoration: none;
+}
+	
+a:hover {
+	color: #A91B33;
+	text-decoration: underline;
+}
+	
+a img {
+	border: none;
+}
+	
+a:focus, a:hover, a:active {
+	outline: none;
+}
+
+
+#sidebar2 {
+  float: left;
+	width: 320px;
+	padding: 10px 5px 0 0;
+}
+	
+#sidebar2 .widget {
+	background: #FFFFFF url(http://images.verticalstreaming.com/clients/ufe/sidebartop.gif) top no-repeat;
+	width: 300px;
+	margin: 0px 0px 10px 0px;
+	padding: 9px;
+	border: 1px solid #DDDDDD;	
+}
+	
+img, a {
+  border: 0px;
+}	
+	
+    
+</style>
