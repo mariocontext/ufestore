@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="ScottcCommerceAffiliates">
+		<field name="affiliateID" type="I">
+			<key />
+			<unsigned />
+      <autoincrement />
+		</field>
+		<field name="affiliateCode" type="C" size="512">
+      <NOTNULL />
+		</field>
+		<field name="userID" type="I">
+			<unsigned />
+		</field>
+		<field name="name" type="C" size="512">
+		</field>
+    <field name="earningType" type="I">
+		</field>
+    <field name="amount" type="I">
+		</field>
+	</table>
+  <table name="ScottcCommerceCartAbandonments">
+		<field name="orderID" type="I">
+			<key />
+			<unsigned />
+		</field>
+    <field name="affiliateID" type="I">
+			<unsigned />
+		</field>
+    <field name="affiliateCode" type="C" size="512">
+		</field>
+		<field name="step" type="C" size="512">
+		</field>
+    <field name="orderEmail" type="C" size="512">
+		</field>
+    <!-- maybe later
+    <field name="orderObjectSerialized" type="X2">
+		</field>-->
+    <field name="updated" type="T">
+      <NOTNULL/>
+      <DEFTIMESTAMP/>
+    </field>
+	</table>
+  <table name="ScottcCommerceAffiliateEarnings">
+    <field name="id" type="I">
+      <key />
+      <unsigned />
+      <autoincrement />
+    </field>
+    <field name="affiliateID" type="I">
+    </field>
+    <field name="affiliateCode" type="C" size="512">
+    </field>
+    <field name="amount" type="F">
+    </field>
+    <field name="orderID" type="I">
+    </field>
+    <field name="orderTotal" type="F">
+    </field>
+    <field name="timestamp" type="T">
+      <NOTNULL/>
+      <DEFTIMESTAMP/>
+    </field>
+  </table>
+   <table name="ScottcCommerceAffiliatePayments">
+    <field name="id" type="I">
+      <key />
+      <unsigned />
+      <autoincrement />
+    </field>
+    <field name="affiliateID" type="I">
+    </field>
+    <field name="amount" type="F">
+    </field>
+    <field name="userID" type="I">
+    </field>
+    <field name="timestamp" type="T">
+      <NOTNULL/>
+      <DEFTIMESTAMP/>
+    </field>
+  </table>
+</schema>

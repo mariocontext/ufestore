@@ -1,0 +1,13 @@
+div.ccm-core-commerce-search-thumbnail {text-align: center; width: 120px; border: 4px solid #dedede; -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+
+div.ccm-core-commerce-product-select {border: 1px solid #dedede}
+div.ccm-core-commerce-product-selected-wrapper {border: 1px solid #dedede; padding: 10px 10px 10px 11px}
+div.ccm-core-commerce-product-select a {display: block; padding: 10px 10px 10px 25px; text-decoration: none; background-repeat: no-repeat; background-color: transparent; background-position: 6px 11px; color: #666; font-weight: bold}
+div.ccm-core-commerce-product-select a:hover {background-color: #E6F2F3}
+div.ccm-core-commerce-product-selected-wrapper:hover {background-color: #E6F2F3; cursor:pointer}
+
+div.ccm-core-commerce-product-selected-thumbnail {width: 120px; margin-right: 10px; float: left}
+div.ccm-core-commerce-product-data {padding-top: 0px; float: left}
+div.ccm-core-commerce-product-data div {font-size: 11px; word-wrap: break-word}
+
+div#ccm-core-commerce-add-product {font-weight: bold; float: right; padding-right: 20px; padding-top: 5px; font-size: 11px; z-index: 10; }

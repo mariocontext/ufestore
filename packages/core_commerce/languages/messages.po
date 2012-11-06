@@ -1,0 +1,2283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-28 12:17-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: core_commerce//blocks/cart_links/add.php:1
+#: core_commerce//blocks/cart_links/controller.php:2
+#: core_commerce//blocks/cart_links/edit.php:1
+#: core_commerce//blocks/cart_links/view.php:1
+#: core_commerce//blocks/product/add.php:1
+#: core_commerce//blocks/product/controller.php:2
+#: core_commerce//blocks/product/edit.php:1
+#: core_commerce//blocks/product/view.php:1
+#: core_commerce//blocks/product_list/add.php:2
+#: core_commerce//blocks/product_list/controller.php:3
+#: core_commerce//blocks/product_list/edit.php:2
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:1
+#: core_commerce//blocks/product_list/elements/form_setup_html.php:2
+#: core_commerce//blocks/product_list/tools/preview_pane.php:1
+#: core_commerce//blocks/product_list/view.php:2
+#: core_commerce//blocks/product_list/view_search_form.php:1
+#: core_commerce//controller.php:3
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:2
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:2
+#: core_commerce//controllers/dashboard/core_commerce/products/images.php:2
+#: core_commerce//controllers/dashboard/core_commerce/products/options.php:2
+#: core_commerce//elements/dashboard/uninstall.php:2
+#: core_commerce//elements/product/display.php:1
+#: core_commerce//elements/product/form.php:1
+#: core_commerce//elements/product/price.php:1
+#: core_commerce//elements/product/search.php:1
+#: core_commerce//elements/product/search_results.php:1
+#: core_commerce//helpers/checkout/step.php:2
+#: core_commerce//helpers/discount.php:2
+#: core_commerce//helpers/form/product.php:19
+#: core_commerce//helpers/urls.php:1
+#: core_commerce//libraries/discount/controller.php:2
+#: core_commerce//libraries/payment/controller.php:2
+#: core_commerce//libraries/price.php:2
+#: core_commerce//libraries/shipping/controller.php:2
+#: core_commerce//mail/order.php:1 core_commerce//mail/receipt.php:1
+#: core_commerce//models/attribute/categories/core_commerce_order.php:2
+#: core_commerce//models/attribute/categories/core_commerce_product.php:2
+#: core_commerce//models/attribute/categories/core_commerce_product_option.php:2
+#: core_commerce//models/attribute/types/order_adjustment/controller.php:2
+#: core_commerce//models/attribute/types/product_price_adjustment_boolean/controller.php:1
+#: core_commerce//models/attribute/types/product_price_adjustment_select/controller.php:2
+#: core_commerce//models/attribute/types/product_price_adjustment_select/form.php:1
+#: core_commerce//models/attribute/types/product_price_adjustment_select/search.php:1
+#: core_commerce//models/attribute/types/product_price_adjustment_text/controller.php:2
+#: core_commerce//models/cart.php:2 core_commerce//models/discount/model.php:2
+#: core_commerce//models/discount/type.php:2
+#: core_commerce//models/discount/types/basic/controller.php:2
+#: core_commerce//models/discount/types/free_shipping/controller.php:2
+#: core_commerce//models/order/current.php:2
+#: core_commerce//models/order/line_item.php:2
+#: core_commerce//models/order/list.php:3
+#: core_commerce//models/order/model.php:2
+#: core_commerce//models/order/previous.php:2
+#: core_commerce//models/order/product.php:2
+#: core_commerce//models/order/status_history.php:2
+#: core_commerce//models/payment/method.php:2
+#: core_commerce//models/payment/methods/authorize_net_aim/controller.php:2
+#: core_commerce//models/payment/methods/authorize_net_sim/controller.php:2
+#: core_commerce//models/payment/methods/default/controller.php:2
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:2
+#: core_commerce//models/product/list.php:3
+#: core_commerce//models/product/model.php:2
+#: core_commerce//models/sales/tax/rate.php:2
+#: core_commerce//models/shipping/method.php:2
+#: core_commerce//models/shipping/type.php:2
+#: core_commerce//models/shipping/types/flat/controller.php:2
+#: core_commerce//page_types/product_detail.php:1
+#: core_commerce//single_pages/dashboard/core_commerce/products/add.php:2
+#: core_commerce//tools/cart_dialog.php:1
+#: core_commerce//tools/customize_order_search_columns.php:1
+#: core_commerce//tools/customize_order_search_columns.php:8
+#: core_commerce//tools/customize_product_search_columns.php:1
+#: core_commerce//tools/customize_product_search_columns.php:8
+#: core_commerce//tools/payment_method_action.php:1
+#: core_commerce//tools/product/search_dialog.php:2
+#: core_commerce//tools/product/search_dialog.php:6
+#: core_commerce//tools/product/search_results.php:2
+#: core_commerce//tools/product/search_results.php:6
+#: core_commerce//tools/product/selector_data.php:2
+msgid "Access Denied."
+msgstr ""
+
+#: core_commerce//blocks/cart_links/controller.php:16
+msgid "Adds links to the Shopping Cart and Checkout page."
+msgstr ""
+
+#: core_commerce//blocks/cart_links/controller.php:20
+msgid "Cart Links"
+msgstr ""
+
+#: core_commerce//blocks/cart_links/form.php:2
+msgid "Cart Links Options"
+msgstr ""
+
+#: core_commerce//blocks/cart_links/form.php:6
+msgid "Show link to cart."
+msgstr ""
+
+#: core_commerce//blocks/cart_links/form.php:7
+msgid "Cart Link text"
+msgstr ""
+
+#: core_commerce//blocks/cart_links/form.php:12
+msgid "Show quantity of items in cart."
+msgstr ""
+
+#: core_commerce//blocks/cart_links/form.php:17
+msgid "Show link to checkout directly."
+msgstr ""
+
+#: core_commerce//blocks/cart_links/form.php:18
+msgid "Checkout Link text"
+msgstr ""
+
+#: core_commerce//blocks/cart_links/form.php:25
+msgid "Preview"
+msgstr ""
+
+#: core_commerce//blocks/product/controller.php:6
+msgid "Embeds a product in your website."
+msgstr ""
+
+#: core_commerce//blocks/product/controller.php:10
+#: core_commerce//blocks/product/form.php:2
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:59
+msgid "Product"
+msgstr ""
+
+#: core_commerce//blocks/product/controller.php:150
+#: core_commerce//blocks/product/controller.php:413
+msgid "Add to Cart"
+msgstr ""
+
+#: core_commerce//blocks/product/controller.php:228
+#: core_commerce//blocks/product_list/controller.php:498
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:35
+msgid "Full Image"
+msgstr ""
+
+#: core_commerce//blocks/product/controller.php:229
+#: core_commerce//blocks/product_list/controller.php:499
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:33
+msgid "Thumbnail Image"
+msgstr ""
+
+#: core_commerce//blocks/product/controller.php:230
+#: core_commerce//blocks/product_list/controller.php:500
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:34
+msgid "Alternate Thumbnail"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:4
+msgid "Choose specific product"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:7
+msgid "Inherit from current page"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:11
+msgid "Select Product"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:17
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:18
+msgid "Where should the product properties be displayed?"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:21
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:22
+msgid "Property"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:22
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:23
+msgid "Page"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:23
+#: core_commerce//blocks/product/form.php:151
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:24
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:109
+msgid "Callout"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:24
+#: core_commerce//blocks/product/form.php:176
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:25
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:134
+msgid "Lightbox"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:27
+#: core_commerce//blocks/product_list/controller.php:58
+#: core_commerce//blocks/product_list/controller.php:76
+#: core_commerce//elements/cart_item_list.php:31
+#: core_commerce//elements/discount/type_form_required.php:30
+#: core_commerce//elements/payment/method_form_required.php:10
+#: core_commerce//elements/product/form.php:47
+#: core_commerce//elements/product/search_results.php:32
+#: core_commerce//elements/sales/tax_form_required.php:42
+#: core_commerce//elements/shipping/type_form_required.php:25
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:74
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:121
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:26
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:76
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:26
+msgid "Name"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:33
+#: core_commerce//blocks/product_list/controller.php:59
+#: core_commerce//elements/product/display.php:298
+#: core_commerce//elements/product/form.php:53
+msgid "Description"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:39
+#: core_commerce//blocks/product_list/controller.php:61
+#: core_commerce//blocks/product_list/controller.php:79
+#: core_commerce//elements/cart_item_list.php:33
+#: core_commerce//elements/product/display.php:290
+#: core_commerce//elements/product/form.php:65
+#: core_commerce//elements/product/search_results.php:33
+msgid "Price"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:45
+#: core_commerce//blocks/product_list/controller.php:62
+#: core_commerce//models/discount/types/basic/type_form.php:10
+msgid "Discount"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:51
+#: core_commerce//blocks/product_list/controller.php:63
+#: core_commerce//elements/product/display.php:118
+#: core_commerce//elements/product/display.php:236
+#: core_commerce//elements/product/display.php:306
+msgid "Dimensions"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:57
+#: core_commerce//blocks/product_list/controller.php:64
+msgid "Quantity in Stock"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:81
+msgid "Adding to Cart"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:85
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:44
+msgid "Link product to its default page."
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:86
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:45
+msgid "Include add to cart link."
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:87
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:46
+msgid "Allow quantity to be chosen."
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:91
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:50
+msgid "Add to Cart Button Text"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:99
+#: core_commerce//blocks/product/form.php:156
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:58
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:114
+msgid "Image"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:100
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:59
+msgid "Display product image."
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:111
+#: core_commerce//blocks/product/form.php:161
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:69
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:119
+msgid "Width"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:116
+#: core_commerce//blocks/product/form.php:166
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:74
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:124
+msgid "Height"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:121
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:79
+msgid "Image Position"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:123
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:81
+msgid "Left"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:126
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:84
+msgid "Top"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:129
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:87
+msgid "Right"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:132
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:90
+msgid "Bottom"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:138
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:96
+msgid "Alternate image to display on roll-over:"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:140
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:98
+msgid "None"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:148
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:106
+msgid "Use Overlays"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:181
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:139
+msgid "Image Width"
+msgstr ""
+
+#: core_commerce//blocks/product/form.php:186
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:144
+msgid "Image Height"
+msgstr ""
+
+#: core_commerce//blocks/product_list/controller.php:45
+msgid "Displays a list of products"
+msgstr ""
+
+#: core_commerce//blocks/product_list/controller.php:49
+msgid "Product List"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:9
+msgid "Directly under this page"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:11
+msgid "A stored search query"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:12
+msgid "Top purchased products"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:13
+msgid "Top visited products"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:14
+msgid "Breadcrumb of products seen"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:27
+#: core_commerce//blocks/product_list/view_search_form.php:10
+#: core_commerce//elements/product/search.php:84
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:327
+msgid "Select Search Field."
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:45
+msgid "Data Source"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:46
+msgid "Get products from"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:51
+msgid "How many levels down"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:54
+msgid "Only display products matching the following search criteria"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_filter.php:63
+#: core_commerce//blocks/product_list/view_search_form.php:46
+#: core_commerce//elements/product/search.php:50
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:276
+msgid "Keywords"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_html.php:8
+#: core_commerce//blocks/product_list/view_search_form.php:48
+#: core_commerce//elements/product/search.php:42
+#: core_commerce//elements/product/search.php:97
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:268
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:340
+msgid "Search"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_html.php:9
+msgid "Data Formatting"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_html.php:10
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:37
+msgid "Results Layout"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:14
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:14
+msgid "Add to cart"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:18
+msgid "Display search results"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:20
+msgid "Order products by"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:32
+#: core_commerce//blocks/product_list/view.php:41
+msgid "Ascending"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:33
+#: core_commerce//blocks/product_list/view.php:46
+msgid "Descending"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:40
+msgid "Table"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:53
+msgid "Cells"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:56
+msgid "Vertical align"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:56
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:73
+msgid "top"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:56
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:74
+msgid "bottom"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:56
+msgid "middle"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:58
+msgid "Horizontal align"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:58
+msgid "left"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:58
+msgid "right"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:58
+msgid "center"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:60
+msgid "Padding"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:62
+msgid "Spacing"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:66
+msgid "Paging & Sorting"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:70
+msgid "Show"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:70
+msgid "per page"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:72
+msgid "Show paging controls on"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_layout.php:76
+msgid "Allow sorting by"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_results.php:40
+msgid "Product Links"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_search.php:15
+msgid "Search Form"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_search.php:16
+msgid "Display"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_search.php:17
+msgid "search form."
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_search.php:19
+msgid "Submitting this form directs the user"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_search.php:22
+msgid "Back to this page"
+msgstr ""
+
+#: core_commerce//blocks/product_list/elements/form_setup_search.php:27
+msgid "To another page"
+msgstr ""
+
+#: core_commerce//blocks/product_list/tools/preview_pane.php:47
+#: core_commerce//blocks/product_list/view.php:60
+#: core_commerce//blocks/product_list/view.php:120
+#: core_commerce//helpers/checkout/step.php:157
+msgid "Previous"
+msgstr ""
+
+#: core_commerce//blocks/product_list/tools/preview_pane.php:49
+#: core_commerce//blocks/product_list/view.php:62
+#: core_commerce//blocks/product_list/view.php:122
+#: core_commerce//helpers/checkout/step.php:170
+msgid "Next"
+msgstr ""
+
+#: core_commerce//blocks/product_list/tools/preview_pane.php:53
+#: core_commerce//blocks/product_list/view.php:114
+msgid "No products found"
+msgstr ""
+
+#: core_commerce//blocks/product_list/view.php:34
+msgid "Sort by:"
+msgstr ""
+
+#: core_commerce//blocks/product_list/view_search_form.php:39
+#: core_commerce//controller.php:707
+msgid "Search Products"
+msgstr ""
+
+#: core_commerce//blocks/product_list/view_search_form.php:57
+#: core_commerce//elements/product/search.php:60
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:286
+msgid "Results Per Page"
+msgstr ""
+
+#: core_commerce//controller.php:12
+msgid "Sell products through your website."
+msgstr ""
+
+#: core_commerce//controller.php:16 core_commerce//controller.php:181
+msgid "eCommerce"
+msgstr ""
+
+#: core_commerce//controller.php:82 core_commerce//controller.php:284
+msgid "Sales Tax"
+msgstr ""
+
+#: core_commerce//controller.php:129 core_commerce//controller.php:200
+msgid "Checkbox - Product Price"
+msgstr ""
+
+#: core_commerce//controller.php:134 core_commerce//controller.php:201
+msgid "Text - Product Price"
+msgstr ""
+
+#: core_commerce//controller.php:139 core_commerce//controller.php:202
+msgid "Select - Product Price"
+msgstr ""
+
+#: core_commerce//controller.php:161
+msgid "Product Detail"
+msgstr ""
+
+#: core_commerce//controller.php:198
+msgid "Order Adjustment"
+msgstr ""
+
+#: core_commerce//controller.php:235 core_commerce//controller.php:240
+msgid "Billing"
+msgstr ""
+
+#: core_commerce//controller.php:236 core_commerce//controller.php:241
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:20
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:20
+msgid "Shipping"
+msgstr ""
+
+#: core_commerce//controller.php:237
+msgid "Subtotal Modifiers"
+msgstr ""
+
+#: core_commerce//controller.php:264
+msgid "Flat Shipping"
+msgstr ""
+
+#: core_commerce//controller.php:265
+msgid "Free Shipping"
+msgstr ""
+
+#: core_commerce//controller.php:266 core_commerce//controller.php:282
+msgid "Basic Discount"
+msgstr ""
+
+#: core_commerce//controller.php:267
+msgid "Default Gateway"
+msgstr ""
+
+#: core_commerce//controller.php:268
+msgid "Paypal Website Payments Standard"
+msgstr ""
+
+#: core_commerce//controller.php:269
+msgid "Authorize.Net - Server Integration Method"
+msgstr ""
+
+#: core_commerce//controller.php:270
+msgid "Authorize.Net - Advanced Integration Method"
+msgstr ""
+
+#: core_commerce//controller.php:272 core_commerce//controller.php:277
+#: core_commerce//controller.php:287 core_commerce//controller.php:292
+msgid "First Name"
+msgstr ""
+
+#: core_commerce//controller.php:273 core_commerce//controller.php:278
+#: core_commerce//controller.php:288 core_commerce//controller.php:293
+msgid "Last Name"
+msgstr ""
+
+#: core_commerce//controller.php:274 core_commerce//controller.php:279
+#: core_commerce//controller.php:289 core_commerce//controller.php:294
+msgid "Address"
+msgstr ""
+
+#: core_commerce//controller.php:275 core_commerce//controller.php:280
+#: core_commerce//controller.php:290 core_commerce//controller.php:295
+msgid "Phone"
+msgstr ""
+
+#: core_commerce//controller.php:283
+msgid "Shipping & Handling"
+msgstr ""
+
+#: core_commerce//controller.php:285
+msgid "Discount Code"
+msgstr ""
+
+#: core_commerce//controller.php:324
+msgid "This is a Duck"
+msgstr ""
+
+#: core_commerce//controller.php:325 core_commerce//controller.php:432
+msgid "Gender"
+msgstr ""
+
+#: core_commerce//controller.php:330
+msgid "How Cute?"
+msgstr ""
+
+#: core_commerce//controller.php:341
+msgid "Catalog"
+msgstr ""
+
+#: core_commerce//controller.php:397
+msgid "Ducky Hat?"
+msgstr ""
+
+#: core_commerce//controller.php:598 core_commerce//controller.php:671
+msgid "View Cart"
+msgstr ""
+
+#: core_commerce//controller.php:599 core_commerce//controller.php:672
+msgid "Checkout"
+msgstr ""
+
+#: core_commerce//controller.php:625
+msgid "Buy!"
+msgstr ""
+
+#: core_commerce//controller.php:658
+msgid "Love of Duck"
+msgstr ""
+
+#: core_commerce//controller.php:676
+msgid ""
+"<h1>Ducks?</h1><h2><em>Yes!</em></h2><p><strong>Why?</strong><br />I just "
+"like 'em. Ya' know what, maybe I love 'em. I've never looked at a duck and "
+"thought \"<strong>jerk.</strong>\" Ducks are cool and I've always had a good "
+"time with them. I remember Ducky from Pretty in Pink fondly, same for Daffy "
+"Duck and his ducky dame Daisy. Ducks just always rubbed me the right way, so "
+"when it came time to sell a pretend something - Ducks it was.*<span style="
+"\"font-size: x-small;\"><br />*Monkeys did place a very close second. </"
+"span></p><p>Now I have ducks up the wazzoooo! Mallards are a dime a dozen "
+"around here. Actually, not quite that cheap - check them out. Don't forget "
+"to click the image to see more pics from around the pond!</p>"
+msgstr ""
+
+#: core_commerce//controller.php:690
+msgid "Catch em!"
+msgstr ""
+
+#: core_commerce//controller.php:731
+msgid "<h2>More Hot Ducks!</h2>"
+msgstr ""
+
+#: core_commerce//controller.php:759 core_commerce//controller.php:787
+msgid "<br/>"
+msgstr ""
+
+#: core_commerce//controller.php:799
+msgid "Signup!"
+msgstr ""
+
+#: core_commerce//controller.php:827
+msgid "Buy"
+msgstr ""
+
+#: core_commerce//controllers/cart.php:29
+#: core_commerce//controllers/checkout/billing.php:59
+#: core_commerce//controllers/checkout/shipping/address.php:99
+#, php-format
+msgid "The field \"%s\" is required"
+msgstr ""
+
+#: core_commerce//controllers/cart.php:41
+#, php-format
+msgid ""
+"Not enough stock to complete your request.\n"
+"Available stock is %s"
+msgstr ""
+
+#: core_commerce//controllers/cart.php:105
+#, php-format
+msgid "Not enough stock to update \"%s\", current stock is %d"
+msgstr ""
+
+#: core_commerce//controllers/cart.php:168
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:123
+msgid "Invalid product ID."
+msgstr ""
+
+#: core_commerce//controllers/checkout/billing.php:42
+msgid "You must specify a valid email address."
+msgstr ""
+
+#: core_commerce//controllers/checkout/payment/method.php:31
+msgid "You must specify a payment method."
+msgstr ""
+
+#: core_commerce//controllers/checkout/shipping/method.php:35
+msgid "You must specify a shipping method."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/discounts/controller.php:51
+msgid "Invalid discountID ID."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/discounts/controller.php:114
+msgid "Discount Created"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/discounts/controller.php:117
+msgid "Discount Updated"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/discounts/controller.php:120
+msgid "Discount Deleted"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/discounts/controller.php:123
+msgid "Discount Type Saved"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/discounts/controller.php:127
+msgid "Discount Type Installed"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:17
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:17
+msgid "Products"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:18
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:18
+msgid "Orders"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:19
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:19
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:112
+msgid "Discounts"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:21
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:21
+msgid "Payment"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:22
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:22
+msgid "Settings"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:39
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:39
+#: core_commerce//controllers/dashboard/core_commerce/products/options.php:28
+msgid "Invalid attribute ID."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:75
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:56
+msgid "Attribute Deleted."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:79
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:60
+msgid "Attribute Created."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/attributes.php:83
+#: core_commerce//controllers/dashboard/core_commerce/products/attributes.php:64
+msgid "Attribute Updated."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/orders/search.php:40
+msgid "Order status updated."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/payment/controller.php:46
+msgid "Payment Method Saved"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/payment/controller.php:51
+msgid "Payment Method Installed"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/payment/controller.php:56
+msgid "Sales Tax Added"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/payment/controller.php:60
+msgid "Sales Tax Updated"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/payment/controller.php:64
+msgid "Sales Tax Deleted"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/payment/tax/controller.php:19
+msgid "Invalid tax rate ID."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/add.php:20
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:71
+msgid "Product name required."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:26
+msgid "Product deleted."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:35
+msgid "Configurable option added to product."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:38
+msgid "Configurable option removed from product."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:41
+msgid "Configurable option updated."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:44
+msgid "Images updated."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:47
+msgid "Product updated."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:50
+msgid "Product duplicated. The new product is below."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/products/search.php:53
+msgid "Product added."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/settings/controller.php:22
+msgid "General Settings Updated."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/settings/controller.php:35
+msgid "Inventory settings saved."
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/shipping/controller.php:44
+msgid "Shipping Type Saved"
+msgstr ""
+
+#: core_commerce//controllers/dashboard/core_commerce/shipping/controller.php:49
+msgid "Shipping Type Installed"
+msgstr ""
+
+#: core_commerce//elements/attribute/categories/core_commerce_order.php:11
+#: core_commerce//elements/attribute/categories/core_commerce_product_option.php:11
+msgid "Required"
+msgstr ""
+
+#: core_commerce//elements/attribute/categories/core_commerce_order.php:15
+msgid "Required when checking out."
+msgstr ""
+
+#: core_commerce//elements/attribute/categories/core_commerce_product_option.php:15
+msgid "Required when adding product to cart."
+msgstr ""
+
+#: core_commerce//elements/cart_item_list.php:32
+#: core_commerce//elements/product/display.php:160
+msgid "Quantity"
+msgstr ""
+
+#: core_commerce//elements/cart_item_list.php:40
+msgid "Your cart is empty."
+msgstr ""
+
+#: core_commerce//elements/cart_item_list.php:112
+msgid "Close Window"
+msgstr ""
+
+#: core_commerce//elements/cart_item_list.php:116
+msgid "&lt; Return to Shopping"
+msgstr ""
+
+#: core_commerce//elements/cart_item_list.php:125
+#: core_commerce//elements/cart_item_list.php:128
+msgid "Check Out"
+msgstr ""
+
+#: core_commerce//elements/cart_item_list.php:131
+msgid "Update Cart"
+msgstr ""
+
+#: core_commerce//elements/dashboard/uninstall.php:5
+msgid "Uninstall Content"
+msgstr ""
+
+#: core_commerce//elements/dashboard/uninstall.php:9
+msgid "Remove any pages found at or below \"/catalog\" and \"/love-of-duck.\""
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:29
+#: core_commerce//elements/payment/method_form_required.php:9
+#: core_commerce//elements/shipping/type_form_required.php:24
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:73
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:25
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:25
+msgid "Handle"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:29
+msgid "(no spaces, for DB)"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:30
+#: core_commerce//elements/sales/tax_form_required.php:42
+msgid "(displayed in the cart at checkout)"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:31
+#: core_commerce//elements/sales/tax_form_required.php:43
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:126
+msgid "Enabled?"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:38
+#: core_commerce//elements/payment/method_form_required.php:11
+#: core_commerce//elements/product/form.php:73
+#: core_commerce//elements/product/search_results.php:66
+#: core_commerce//elements/sales/tax_form_required.php:50
+#: core_commerce//elements/shipping/type_form_required.php:26
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:18
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:27
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:77
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:27
+msgid "Enabled"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:39
+#: core_commerce//elements/product/form.php:74
+#: core_commerce//elements/product/search_results.php:66
+#: core_commerce//elements/sales/tax_form_required.php:51
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:19
+msgid "Disabled"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:44
+msgid "Limited Availability"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:44
+msgid "(leave blank for unlimited)"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:45
+msgid "Coupon Code"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:45
+msgid "(entered by shopper)"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:49
+msgid "(start date)"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:50
+msgid "(end date)"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:62
+msgid "Update Discount"
+msgstr ""
+
+#: core_commerce//elements/discount/type_form_required.php:64
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:3
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:149
+msgid "Add Discount"
+msgstr ""
+
+#: core_commerce//elements/payment/method_form_required.php:17
+#: core_commerce//elements/product/form.php:84
+#: core_commerce//elements/product/form.php:101
+#: core_commerce//elements/product/form.php:125
+#: core_commerce//elements/shipping/type_form_required.php:32
+#: core_commerce//models/attribute/types/product_price_adjustment_boolean/controller.php:24
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:23
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:32
+#: core_commerce//models/payment/methods/default/method_form.php:11
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:138
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:34
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:83
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:23
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:57
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:34
+msgid "No"
+msgstr ""
+
+#: core_commerce//elements/payment/method_form_required.php:17
+#: core_commerce//elements/product/form.php:83
+#: core_commerce//elements/product/form.php:100
+#: core_commerce//elements/product/form.php:124
+#: core_commerce//elements/shipping/type_form_required.php:32
+#: core_commerce//models/attribute/types/product_price_adjustment_boolean/controller.php:24
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:22
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:31
+#: core_commerce//models/payment/methods/default/method_form.php:10
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:138
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:34
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:83
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:22
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:56
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:34
+msgid "Yes"
+msgstr ""
+
+#: core_commerce//elements/payment/method_form_required.php:28
+msgid "Update Payment Method"
+msgstr ""
+
+#: core_commerce//elements/product/display.php:126
+#: core_commerce//elements/product/display.php:314
+msgid "# In Stock"
+msgstr ""
+
+#: core_commerce//elements/product/display.php:178
+msgid "This product is unavailable."
+msgstr ""
+
+#: core_commerce//elements/product/display.php:244
+msgid "# in Stock"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:44
+msgid "Base Information"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:64
+#: core_commerce//elements/product/search_results.php:35
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:176
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:304
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:368
+msgid "Status"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:66
+msgid "Special/Sale Price"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:67
+msgid "Quantity In Stock"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:68
+msgid "Physical Good"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:80
+msgid "Unlimited"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:89
+#: core_commerce//single_pages/checkout/shipping/address.php:21
+msgid "Shipping Information"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:92
+msgid "Requires Shipping"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:93
+msgid "Weight"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:94
+msgid "Dimensions (LxWxH)"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:95
+msgid "Shipping Modifier"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:96
+msgid "Charge Sales Tax"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:106
+msgid "lb"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:107
+msgid "g"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:108
+msgid "kg"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:109
+msgid "oz"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:117
+msgid "in"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:118
+msgid "mm"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:119
+msgid "cm"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:134
+msgid "Other Product Attributes"
+msgstr ""
+
+#: core_commerce//elements/product/form.php:152
+msgid "Product Page: "
+msgstr ""
+
+#: core_commerce//elements/product/form.php:167
+msgid "Buying this product will place you in the following groups: "
+msgstr ""
+
+#: core_commerce//elements/product/form.php:265
+#: core_commerce//single_pages/dashboard/core_commerce/products/add.php:39
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:66
+msgid "Create a Product Page?"
+msgstr ""
+
+#: core_commerce//elements/product/price.php:4
+#, php-format
+msgid "Now %s"
+msgstr ""
+
+#: core_commerce//elements/product/search.php:4
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:230
+msgid "Fields"
+msgstr ""
+
+#: core_commerce//elements/product/search.php:5
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:231
+msgid "Created Between"
+msgstr ""
+
+#: core_commerce//elements/product/search.php:25
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:251
+msgid "to"
+msgstr ""
+
+#: core_commerce//elements/product/search_results.php:34
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:367
+msgid "Date Added"
+msgstr ""
+
+#: core_commerce//elements/product/search_results.php:65
+msgid "m/d/Y \\a\t g:i A"
+msgstr ""
+
+#: core_commerce//elements/product/search_results.php:90
+msgid "No products found."
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:34
+#: core_commerce//elements/shipping/type_form_required.php:6
+msgid "Choose Country"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:44
+msgid "Rate"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:57
+msgid "Country"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:58
+msgid "State/Province"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:59
+msgid "Postal Code"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:69
+msgid "Choose State/Province"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:77
+msgid "Sales Tax Already Included in Product Price"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:82
+msgid "No, bill sales tax during checkout"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:83
+msgid "Yes, display sales tax but do not add it to order"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:93
+msgid "Update Rate"
+msgstr ""
+
+#: core_commerce//elements/sales/tax_form_required.php:95
+msgid "Add Rate"
+msgstr ""
+
+#: core_commerce//elements/shipping/type_form_required.php:37
+msgid "Shipping Available To"
+msgstr ""
+
+#: core_commerce//elements/shipping/type_form_required.php:41
+msgid "All Available Countries"
+msgstr ""
+
+#: core_commerce//elements/shipping/type_form_required.php:42
+msgid "Selected Countries"
+msgstr ""
+
+#: core_commerce//elements/shipping/type_form_required.php:61
+msgid "Update Shipping Type"
+msgstr ""
+
+#: core_commerce//libraries/discount/controller.php:35
+msgid "Handle required."
+msgstr ""
+
+#: core_commerce//libraries/discount/controller.php:36
+msgid "Name required."
+msgstr ""
+
+#: core_commerce//libraries/discount/controller.php:37
+msgid "Type required."
+msgstr ""
+
+#: core_commerce//libraries/payment/controller.php:135
+#: core_commerce//single_pages/checkout/finish.php:7
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:80
+msgid "Thank you for your purchase!"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_boolean/controller.php:96
+#: core_commerce//models/attribute/types/product_price_adjustment_text/controller.php:71
+msgid "Default Value"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_boolean/controller.php:97
+msgid "Adjustment Amount"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_boolean/controller.php:101
+msgid "The checkbox will be checked by default."
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/controller.php:357
+msgid ""
+"A select attribute type must have at least two values, or must allow users "
+"to add to it."
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/form.php:14
+msgid "** None"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/search.php:12
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:306
+msgid "** All"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:23
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:36
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:85
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:36
+msgid "Edit"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:24
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:52
+msgid "Delete"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:34
+#: core_commerce//tools/select_parent.php:11
+msgid "Cancel"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:35
+#: core_commerce//tools/customize_order_search_columns.php:52
+#: core_commerce//tools/customize_product_search_columns.php:52
+msgid "Save"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:57
+msgid "Multiple Values"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:58
+msgid "Option Order"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:63
+msgid "Allow multiple options to be chosen."
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:67
+msgid "Display Order"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:68
+msgid "Alphabetical"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:69
+msgid "Most Popular First"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:76
+msgid "Values"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:116
+msgid "Add"
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_select/type_form.php:121
+msgid "Allow users to add to this list."
+msgstr ""
+
+#: core_commerce//models/attribute/types/product_price_adjustment_text/controller.php:123
+msgid "Must be greater than 0"
+msgstr ""
+
+#: core_commerce//models/discount/types/basic/controller.php:19
+msgid "You must specify a discount amount."
+msgstr ""
+
+#: core_commerce//models/discount/types/basic/type_form.php:11
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:23
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:122
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:19
+msgid "Type"
+msgstr ""
+
+#: core_commerce//models/discount/types/basic/type_form.php:19
+msgid "Fixed Amount Off Order"
+msgstr ""
+
+#: core_commerce//models/discount/types/basic/type_form.php:20
+msgid "Percent Off Order"
+msgstr ""
+
+#: core_commerce//models/discount/types/free_shipping/controller.php:82
+msgid "You must specify a minimum subtotal, even if it is zero."
+msgstr ""
+
+#: core_commerce//models/discount/types/free_shipping/controller.php:95
+#, php-format
+msgid ""
+"In order to use this code, your cart must contain items totalling %s or more."
+msgstr ""
+
+#: core_commerce//models/discount/types/free_shipping/type_form.php:4
+msgid "Minimum Total Purchase Required"
+msgstr ""
+
+#: core_commerce//models/discount/types/free_shipping/type_form.php:5
+#: core_commerce//single_pages/checkout/shipping/method.php:15
+msgid "Shipping Method"
+msgstr ""
+
+#: core_commerce//models/order/model.php:285
+msgid "New"
+msgstr ""
+
+#: core_commerce//models/order/model.php:288
+msgid "Pending"
+msgstr ""
+
+#: core_commerce//models/order/model.php:291
+msgid "Authorized"
+msgstr ""
+
+#: core_commerce//models/order/model.php:294
+msgid "Shipped"
+msgstr ""
+
+#: core_commerce//models/order/model.php:297
+msgid "Complete"
+msgstr ""
+
+#: core_commerce//models/order/model.php:300
+msgid "Cancelled"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/controller.php:21
+#: core_commerce//models/payment/methods/authorize_net_sim/controller.php:21
+msgid "You must specify your API Login."
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/controller.php:24
+#: core_commerce//models/payment/methods/authorize_net_sim/controller.php:24
+msgid "You must specify your transaction key."
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/controller.php:61
+#: core_commerce//models/payment/methods/authorize_net_sim/controller.php:95
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:98
+#, php-format
+msgid "Purchase from %s"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/form.php:10
+msgid "Payment Information"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/form.php:46
+msgid "Click 'Next' to submit your payment to Authorize.Net."
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:5
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:5
+msgid "Authorize.Net API Login ID"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:6
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:6
+msgid "Authorize.Net Transaction Key"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:13
+msgid "Card Code Verification (CCV)"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:14
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:17
+#: core_commerce//models/payment/methods/default/method_form.php:5
+msgid "Send Receipt Email"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:27
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:16
+#: core_commerce//models/payment/methods/default/method_form.php:6
+msgid "Transaction Type"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:28
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:15
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:6
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:12
+msgid "Test Mode"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:32
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:27
+#: core_commerce//models/payment/methods/default/method_form.php:14
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:17
+msgid "Authorization"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:33
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:28
+#: core_commerce//models/payment/methods/default/method_form.php:15
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:20
+msgid "Sale"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:37
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:22
+msgid "Test Account"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:38
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:23
+msgid "Live (Test Mode)"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_aim/method_form.php:39
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:24
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:15
+msgid "Live"
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_sim/controller.php:28
+msgid "You must specify your MD5 secret key."
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_sim/form.php:9
+msgid "Click 'Next' to proceed to Authorize.Net to finish your order."
+msgstr ""
+
+#: core_commerce//models/payment/methods/authorize_net_sim/method_form.php:7
+msgid "Authorize.Net MD5 Secret"
+msgstr ""
+
+#: core_commerce//models/payment/methods/default/form.php:1
+msgid "Click 'Next' to submit your payment to the Default Gateway."
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:16
+msgid "Australian Dollar"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:17
+msgid "Canadian Dollar"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:18
+msgid "Czech Koruna"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:19
+msgid "Danish Krone"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:20
+msgid "Euro"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:21
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:22
+msgid "Hungarian Forint"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:23
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:24
+msgid "Japanese Yen"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:25
+msgid "Mexican Peso"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:26
+msgid "Norwegian Krone"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:27
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:28
+msgid "Polish Zloty"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:29
+msgid "Pound Sterling"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:30
+msgid "Singapore Dollar"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:31
+msgid "Swedish Krona"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:32
+msgid "Swiss Franc"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:33
+msgid "U.S. Dollar"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:44
+msgid "You must specify your Paypal ID, which is an email address."
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/controller.php:98
+msgid "Order #"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/form.php:9
+msgid "Click 'Next' to proceed to paypal.com to finish your order."
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:5
+msgid "Paypal Email/Business ID"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:7
+msgid "Transation Type"
+msgstr ""
+
+#: core_commerce//models/payment/methods/paypal_website_payments_standard/method_form.php:8
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:83
+msgid "Currency"
+msgstr ""
+
+#: core_commerce//models/product/model.php:157
+msgid "Copy"
+msgstr ""
+
+#: core_commerce//models/product/model.php:227
+msgid ""
+"Unable to create product detail page.  The product detail page type is not "
+"defined."
+msgstr ""
+
+#: core_commerce//models/product/model.php:231
+msgid "Unable to create product detail page.  The parent page is not valid."
+msgstr ""
+
+#: core_commerce//models/product/model.php:235
+msgid ""
+"Insufficient permissions to add a product detail page to this area of the "
+"site."
+msgstr ""
+
+#: core_commerce//models/shipping/types/flat/controller.php:22
+msgid "You must specify a minimum base shipping price, even if it is zero."
+msgstr ""
+
+#: core_commerce//models/shipping/types/flat/controller.php:25
+msgid "You must specify a minimum per item shipping price, even if it is zero."
+msgstr ""
+
+#: core_commerce//models/shipping/types/flat/controller.php:52
+msgid "Basic Shipping"
+msgstr ""
+
+#: core_commerce//models/shipping/types/flat/type_form.php:4
+msgid "Starting Rate"
+msgstr ""
+
+#: core_commerce//models/shipping/types/flat/type_form.php:5
+msgid "Additional Cost Per Item"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/billing.php:21
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:110
+msgid "Billing Information"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/billing.php:27
+msgid "Email Address"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/discount.php:12
+msgid "Special Offer Code"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/discount.php:15
+msgid ""
+"To claim a discount, enter a valid coupon code below. If you don't have a "
+"coupon code, just click \"Next\" to skip this step."
+msgstr ""
+
+#: core_commerce//single_pages/checkout/finish_error.php:7
+msgid ""
+"We are unable to complete processing of your order at this time.  Please try "
+"again later."
+msgstr ""
+
+#: core_commerce//single_pages/checkout/payment/method.php:13
+msgid "Payment Method"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/payment/method.php:28
+msgid "Payment is Unavailable."
+msgstr ""
+
+#: core_commerce//single_pages/checkout/shipping/address.php:29
+msgid "Use Billing Address"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/shipping/method.php:30
+#, php-format
+msgid "(Cost: <strong>%s</strong>)"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/shipping/method.php:30
+msgid "Cost: <strong>Free</strong>"
+msgstr ""
+
+#: core_commerce//single_pages/checkout/shipping/method.php:37
+msgid "Shipping is Unavailable."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:8
+msgid "Discount Type"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:20
+msgid "Edit Discount"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:37
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:53
+msgid "Delete Discount"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:44
+msgid "Are you sure you want to remove this discount?"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:64
+msgid "Discount Types"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:68
+msgid "There are no discount types installed."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:88
+msgid "Custom Discount Types"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:92
+msgid "There are no available discount types awaiting installation."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:100
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:58
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:58
+msgid "Install"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:112
+msgid "Manage Discount Types"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:116
+msgid "No discounts defined."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:123
+msgid "Valid From"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:124
+msgid "Valid To"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:125
+msgid "Code"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:152
+msgid "Choose Discount Type"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/discounts/view.php:157
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:64
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:64
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:69
+msgid "Go"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:3
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:3
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:56
+msgid "Manage Attribute Types"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:3
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:3
+msgid "Attributes"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:16
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:16
+msgid "Edit Attribute"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:19
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:19
+msgid "Attribute Type"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:33
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:49
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:33
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:49
+msgid "Delete Attribute"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:40
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:40
+msgid "Are you sure you want to remove this attribute?"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:56
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:56
+msgid "Add Attribute"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/attributes.php:59
+#: core_commerce//single_pages/dashboard/core_commerce/products/attributes.php:59
+msgid "Choose Attribute Type"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:29
+msgid "Order Detail"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:33
+msgid "Order Information"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:37
+msgid "Order ID:"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:65
+msgid "Unknown. This product has been removed."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:102
+msgid "User Account:"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:110
+msgid "Billing/Shipping Information"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:168
+msgid "Order Status"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:172
+msgid "Currently: "
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:177
+msgid "Date Set"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:178
+msgid "Set By"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:207
+msgid "Update Order Status"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:212
+msgid "Set Status"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:221
+msgid "Order Search"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:366
+msgid "ID"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:389
+msgid "m/d/Y - g:i A"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/orders/search.php:414
+msgid "No orders found."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/tax/view.php:5
+msgid "Edit Sales Tax Rate"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/tax/view.php:16
+msgid "Delete Sales Tax Rate"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/tax/view.php:23
+msgid "Are you sure you want to remove this rate?"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/tax/view.php:32
+msgid "Delete Rate"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/tax/view.php:40
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:96
+msgid "Add Sales Tax Rate"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:3
+msgid "Edit Payment Method"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:16
+msgid "Payment Methods"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:20
+msgid "There are no payment methods installed."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:46
+msgid "Custom Payment Methods"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:50
+msgid "There are no available payment methods awaiting installation."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:68
+msgid "Sales Tax Rates"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/payment/view.php:72
+msgid "There are no available sales tax rates."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/add.php:15
+#: core_commerce//single_pages/dashboard/core_commerce/products/add.php:27
+msgid "Create Product"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:1
+msgid "Product Options"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:29
+msgid "Standard Images"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:38
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:39
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:40
+msgid "Choose Image"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:44
+msgid "Add Image"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:46
+msgid "Additional Images"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/images.php:65
+msgid "Update Images"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:3
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:23
+msgid "Customer Choices"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:3
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:6
+msgid "View Product"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:16
+msgid "Edit Option"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:33
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:49
+msgid "Delete Option"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:40
+msgid "Are you sure you want to remove this option?"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:56
+msgid "Add Option"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/options.php:63
+msgid "Choose Type"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:20
+msgid "Edit Product"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:21
+msgid "Properties"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:22
+msgid "Images"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:28
+msgid "Duplicate"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:36
+msgid "Are you sure you want to remove this product?"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:37
+msgid ""
+"This product has a page associated in the sitemap. Do you want to remove "
+"that page aswell?"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:81
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:92
+msgid "Update Product"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:102
+msgid "Product Search"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/products/search.php:127
+msgid "Add Product"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:9
+msgid "Attribute Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:12
+msgid "Product Attributes"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:13
+msgid "Order Attributes"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:17
+msgid "Inventory Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:20
+msgid "Automatic Inventory Management"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:28
+msgid "Subtract inventory when the following occurs:"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:31
+msgid "Order clears the payment gateway"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:32
+msgid "Order status changed to \"shipped\""
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:33
+msgid "Order status changed to \"completed\""
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:39
+msgid "Save Inventory Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:46
+msgid "Security Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:51
+msgid "Use SSL for Checkout"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:68
+msgid "Update Security Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:74
+msgid "General Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:84
+msgid "Unit"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:89
+msgid "Thousands Separator"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:92
+msgid "Decimal Symbol/Point"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:101
+msgid "Email"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:105
+msgid "Receipt Email Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:108
+msgid "Receipt From Email Address"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:109
+msgid "Receipt From Name"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:116
+msgid "Notification Email Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:121
+msgid "Send notification emails when an order is placed"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:125
+msgid "Send To (One Email Per Line)"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:126
+msgid "Text to include with receipt emails"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:137
+msgid "Notification From Email Address"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:138
+msgid "Notification From Name"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/settings/view.php:147
+msgid "Update General Settings"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:3
+msgid "Edit Shipping Type"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:16
+msgid "Shipping Types"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:20
+msgid "There are no shipping types installed."
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:46
+msgid "Custom Shipping Types"
+msgstr ""
+
+#: core_commerce//single_pages/dashboard/core_commerce/shipping/view.php:50
+msgid "There are no available shipping types awaiting installation."
+msgstr ""
+
+#: core_commerce//tools/create_page.php:3
+msgid ""
+"If you would like to create a default detail page for this product now, "
+"select a location for that new page to live from the sitemap. If you choose "
+"not to create a page now you will still be able add the product to a page "
+"later."
+msgstr ""
+
+#: core_commerce//tools/create_page.php:11
+msgid "Set Parent Page"
+msgstr ""
+
+#: core_commerce//tools/create_page.php:23
+msgid "Skip Page Creation"
+msgstr ""
+
+#: core_commerce//tools/customize_order_search_columns.php:39
+#: core_commerce//tools/customize_product_search_columns.php:39
+msgid "Additional Searchable Attributes"
+msgstr ""
+
+#: core_commerce//tools/customize_order_search_columns.php:41
+#: core_commerce//tools/customize_product_search_columns.php:41
+msgid "Choose the additional attributes you wish to include as column headers."
+msgstr ""
+
+#: core_commerce//tools/select_parent.php:7
+#, php-format
+msgid "You have selected the page %s. If this is correct click okay."
+msgstr ""
+
+#: core_commerce//tools/select_parent.php:10
+msgid "Okay"
+msgstr ""

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<schema version="0.3">
+ <table name="CoreCommerceOrderDownloadableFiles">
+    <field name="orderProductFileID" type="I" size="10">
+	   	<KEY/>
+      	<AUTOINCREMENT/>
+      	<UNSIGNED/>
+	</field>
+    <field name="orderID" type="I" size="10">
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="productID" type="I" size="10">
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="fID" type="I" size="10">
+      <DEFAULT value="0"/>
+      <UNSIGNED/>
+    </field>
+    <field name="orderProductFileKey" type="C" size="255" />
+    <field name="limitDownloadTime" type="I1" size="1">
+    	<DEFAULT value="0"/>
+    	<UNSIGNED/>
+    </field>
+    <field name="timeDownloadEnds" type="T">
+    	<NOTNULL/>
+      	<DEFAULT value="0000-00-00 00:00:00"/>
+    </field>
+</table>
+</schema>

@@ -1,0 +1,7 @@
+.explanation {color:#888;font-size:9px}
+
+div.ccm-core-commerce-product-additional-images-add {float: right;}
+img.ccm-core-commerce-product-additional-thumbnail {float: left; margin-right: 8px}
+img.ccm-core-commerce-product-additional-thumbnail:hover {cursor: move}
+div.ccm-core-commerce-product-additional-image {clear: both; padding: 8px 0px 8px 0px; border-bottom: 1px dotted #aaa}
+a.ccm-core-commerce-product-additional-remove {float: right}

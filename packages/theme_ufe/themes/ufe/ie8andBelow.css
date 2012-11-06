@@ -1,0 +1,9 @@
+/* IE 8 and under */
+
+/* core commerce tweaks */
+
+.ccm-input-submit, .ccm-core-commerce-cart-buttons input {
+background: #ff3019; /* Old browsers */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-8 */
+border: none;
+}

@@ -263,7 +263,7 @@ background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10+,
 background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* IE10+ */
 background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-8 */
+
 
 }
 

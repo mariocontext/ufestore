@@ -1,0 +1,28 @@
+table.ccm-core-commerce-cart {width: 100%}
+table.ccm-core-commerce-cart td, table.ccm-core-commerce-cart th {padding: 8px;}
+table.ccm-core-commerce-cart td {border-bottom: 1px dotted #aaa;}
+table.ccm-core-commerce-cart th {border-bottom: 1px solid #333}
+table.ccm-core-commerce-cart th {text-align: center; font-weight: bold}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-quantity {text-align: center}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-name {text-align: left;}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-thumbnail {text-align: center; width: 120px}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-quantity input {width: 20px !important}
+table.ccm-core-commerce-cart .ccm-core-commerce-cart-width {width: 100%}
+
+div.ccm-core-commerce-cart-buttons {margin-top: 8px}
+input.ccm-core-commerce-cart-buttons-checkout {float: right; margin-left: 4px}
+img#ccm-core-commerce-cart-update-loader {float: right; margin-top: 4px; display:none}
+div.ccm-core-commerce-add-to-cart-lightbox-caption {display: none}
+
+tr.ccm-core-commerce-cart-subtotal td {background-color: #efefef; font-weight: bold; color: #333}
+img.ccm-core-commerce-add-to-cart-loader {display: none; vertical-align: middle; margin-left: 4px;}
+td.ccm-core-commerce-add-to-cart-thumbnail-left {padding-right: 6px}
+td.ccm-core-commerce-add-to-cart-thumbnail-right {padding-left: 6px}
+td.ccm-core-commerce-add-to-cart-thumbnail-top {padding-bottom: 6px;}
+td.ccm-core-commerce-add-to-cart-thumbnail-bottom {padding-top: 6px;}
+div.ccm-core-commerce-add-to-cart-callout {display: none; z-index: 105; position: absolute;top: 0px; left: 0px; width: 400px; padding: 2px; background-color: #fff; border: 3px solid #ddd}
+div.ccm-core-commerce-add-to-cart-callout-image {text-align: center; margin-bottom: 8px}
+
+#ccm-core-commerce-cart-form .ccm-error {color: #f00; font-weight: normal}
+#ccm-core-commerce-cart-form ul.ccm-error {font-size: 12px; list-style-type: none; padding: 0px; margin: 0px 0px 0px 0px}
+#ccm-core-commerce-cart-form ul.ccm-error li {margin-bottom: 8px; color: #f00;}

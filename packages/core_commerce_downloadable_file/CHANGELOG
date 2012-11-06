@@ -1,0 +1,5 @@
+1.0.3 - Including the name of the attribute in the download list, so you can have multiple attributes assigned to a product and they'll make sense, for different versions of files, etc...
+
+1.0.2 - Better handling of orders when a previous order could not be found (should fix issues with Paypal Website Payments Standard and perhaps other gateways.)
+
+1.0.1 - Initial Version

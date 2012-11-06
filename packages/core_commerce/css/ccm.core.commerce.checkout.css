@@ -1,0 +1,6 @@
+div.ccm-core-commerce-checkout-form table {width: 100%; border: 1px solid #aaa; color:#666666;}
+div.ccm-core-commerce-checkout-form table td {padding: 8px 20px 8px 8px; background: #f3f3f3}
+div.ccm-core-commerce-checkout-form input.ccm-input-text {width: 100%}
+
+div.ccm-core-commerce-cart-buttons input.ccm-core-commerce-checkout-button-next {float: right}
+div.ccm-core-commerce-cart-buttons input.ccm-core-commerce-checkout-button-previous {float: left}

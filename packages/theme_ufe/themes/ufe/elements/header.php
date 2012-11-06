@@ -18,8 +18,12 @@ define('CURRENT_PAGE_NAME', $pagename);
 <html>
 <head>
 <?php Loader::element('header_required'); ?>
-<link href="<?php echo $this->getThemePath() ?>/master.css" rel="stylesheet" type="text/css" media="screen" />
 
+
+<link href="<?php echo $this->getThemePath() ?>/master.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if lt IE 9]>
+<link href="<?php echo $this->getThemePath() ?>/ie8andBelow.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
 
 </head>
 <body class="<?php echo $page_type_name ." ". $pagename ?>">
