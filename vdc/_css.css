@@ -1,39 +1,56 @@
 <style type="text/css">
-/* original version as of 11.06.12 */
+/* version with sponsor test */
+
+
+
+  body {
+    background: #000;
+    color: #FFF;
+    font-size: 12px;
+    font-family: Arial, Tahoma, Verdana;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  img, a img {
+   border: none;   
+  }
+  
+#background
+{
+  background: url(http://ufestore.com/vdc/images/BCAA_ufe_bg.jpg) no-repeat center top;
+  background-color: #000;
+  height: 950px;
+  position: absolute;
+  width: 100%;
+  top:0px;
+  z-index: 1;
+}
+
+#skin {
+  position: absolute;
+  width: 100%;
+  height: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
 #wrap {
   background: #EEEEEE;
+  color:#000;
   width: 960px;
   margin: 0px auto;
   padding: 0px;
   position: relative;
-  border: 10px solid #010101;
+  border: none;
 }
-
-  body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #fff;
-  }
-  
-  body {
-    color: #3D3D3D;
-    font-size: 12px;
-    font-family: Verdana, Arial, sans-serif;
-  }
-
-  body {
-    background: #010101 url(http://images.verticalstreaming.com/clients/ufe/ufe_background_01.jpg) no-repeat top center;
-    background-attachment: fixed;
-    color: #000000;
-    font-size: 12px;
-    font-family: Arial, Tahoma, Verdana;
-    margin: 0px auto 0px;
-    padding: 0px;
-  }
   
   #header {
     height: 285px;
-    background: url(http://images.verticalstreaming.com/clients/ufe/ufe_header_01.jpg) top center no-repeat;
+    background: url(http://ufestore.com/vdc/images/UFE_Top_Carnitine.jpg) top center no-repeat;
     width: 960px;
     overflow: hidden;
     background-color: #000;
@@ -172,83 +189,83 @@
   
 .widget {
     background: #FFFFFF url(http://images.verticalstreaming.com/clients/ufe/rightsidebartop.gif) top no-repeat;
-	width: 120px;
-	margin: 0px 0px 10px 0px;
-	padding: 9px;
-	border: 1px solid #DDDDDD;
-	display: block;
+  width: 120px;
+  margin: 0px 0px 10px 0px;
+  padding: 9px;
+  border: 1px solid #DDDDDD;
+  display: block;
 }
 
 ul.nav {
-	list-style: none; 
-	border: 1px solid #666;
-	margin-bottom: 15px; 
+  list-style: none; 
+  border: 1px solid #666;
+  margin-bottom: 15px; 
 }
 
 ul.nav li {
-	border-bottom: 1px solid #666; font-weight:bold
+  border-bottom: 1px solid #666; font-weight:bold
 }
 
 ul.nav a, ul.nav a:visited { 
-	padding: 5px 5px 5px 15px;
-	display: block; 
-	/*width: 120px; */
-	text-decoration: none;
-	background: #CCC; color:#000
+  padding: 5px 5px 5px 15px;
+  display: block; 
+  /*width: 120px; */
+  text-decoration: none;
+  background: #CCC; color:#000
 }
 
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
-	background: #900;
-	color: #FFF;
+  background: #900;
+  color: #FFF;
 }
 
 ul, ol, dl { 
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	
-	padding-right: 15px;
-	padding-left: 15px; 
+  margin-top: 0;  
+  padding-right: 15px;
+  padding-left: 15px; 
 }
 
 a, a:visited {
-	color: #A91B33;
-	text-decoration: none;
+  color: #A91B33;
+  text-decoration: none;
 }
-	
+  
 a:hover {
-	color: #A91B33;
-	text-decoration: underline;
+  color: #A91B33;
+  text-decoration: underline;
 }
-	
+  
 a img {
-	border: none;
+  border: none;
 }
-	
+  
 a:focus, a:hover, a:active {
-	outline: none;
+  outline: none;
 }
 
 
 #sidebar2 {
   float: left;
-	width: 320px;
-	padding: 10px 5px 0 0;
+  width: 320px;
+  padding: 10px 5px 0 0;
 }
-	
+  
 #sidebar2 .widget {
-	background: #FFFFFF url(http://images.verticalstreaming.com/clients/ufe/sidebartop.gif) top no-repeat;
-	width: 300px;
-	margin: 0px 0px 10px 0px;
-	padding: 9px;
-	border: 1px solid #DDDDDD;	
+  background: #FFFFFF url(http://images.verticalstreaming.com/clients/ufe/sidebartop.gif) top no-repeat;
+  width: 300px;
+  margin: 0px 0px 10px 0px;
+  padding: 9px;
+  border: 1px solid #DDDDDD;  
 }
-	
+  
 img, a {
   border: 0px;
-}	
-	
+} 
+  
     
 </style>
