@@ -7,7 +7,6 @@ $this->inc('elements/header.php'); ?>
   $a = new Area('Sidebar');
 	$a->display($c);
 ?>
-<?php $this->inc('elements/left_nav.php'); ?>
       	
 </div>
 
